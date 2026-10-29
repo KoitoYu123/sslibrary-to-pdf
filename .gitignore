@@ -1,0 +1,29 @@
+# Downloaded books and generated files
+/downloads/
+*.pdf
+*.img
+*.part
+**/pages.json
+**/progress.json
+**/report.json
+
+# Private session information and temporary reader links
+cookies*
+*.cookies
+book_url.txt
+reader_source.html
+.env
+.env.*
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# OS / editor files
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
